@@ -119,16 +119,16 @@ const App = () => {
           <div className="trigger-wrapper">
             <div className="trigger">
               <div
-                className="secondary"
-                data-pressed={gamepadKeys?.left.trigger.secondary === 1}
-              ></div>
-              <div
                 className="primary"
                 style={
                   {
                     "--pressure": gamepadKeys?.left.trigger.primary ?? 0,
                   } as React.CSSProperties
                 }
+              ></div>
+              <div
+                className="secondary"
+                data-pressed={gamepadKeys?.left.trigger.secondary === 1}
               ></div>
             </div>
           </div>
@@ -171,16 +171,16 @@ const App = () => {
           <div className="trigger-wrapper">
             <div className="trigger">
               <div
-                className="secondary"
-                data-pressed={gamepadKeys?.right.trigger.secondary === 1}
-              ></div>
-              <div
                 className="primary"
                 style={
                   {
                     "--pressure": gamepadKeys?.right.trigger.primary ?? 0,
                   } as React.CSSProperties
                 }
+              ></div>
+              <div
+                className="secondary"
+                data-pressed={gamepadKeys?.right.trigger.secondary === 1}
               ></div>
             </div>
           </div>
